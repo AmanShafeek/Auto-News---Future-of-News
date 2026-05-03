@@ -1,0 +1,211 @@
+Build a premium mobile application using React Native (Expo) called **“NeuroFeed”**, powered by the Auto-News AI engine.
+
+---
+
+## 🧠 Core Concept
+
+NeuroFeed is an **AI-powered personal knowledge feed** that:
+
+* Reads the internet for you
+* Filters noise
+* Delivers only what matters
+
+This is NOT a news app.
+
+This is:
+👉 “TikTok for knowledge + ChatGPT for understanding”
+
+---
+
+## 🧱 Tech Stack
+
+Frontend:
+
+* React Native (Expo)
+* React Navigation
+* Zustand / Redux
+
+Backend:
+
+* Python (Auto-News engine)
+* FastAPI (API layer)
+* Redis + Vector DB (for personalization)
+
+AI:
+
+* OpenAI / Gemini APIs
+* Embeddings for personalization
+
+---
+
+## 📱 Core Features
+
+### 1. Smart Feed (🔥 MAIN SCREEN)
+
+* Infinite scroll like Instagram/Reels
+
+* Each card contains:
+
+  * Headline
+  * AI Summary (3–5 lines)
+  * Key insights
+  * Source tags (YouTube / Reddit / Article)
+
+* Swipe:
+
+  * 👍 Interested → improves feed
+  * 👎 Not relevant → filters future
+
+---
+
+### 2. AI Deep Dive Mode
+
+Tap any content → opens:
+
+* Full summary
+* Bullet insights
+* “Explain like I’m 10”
+* “Business impact”
+* “Future prediction”
+
+---
+
+### 3. Multi-Source Aggregation (Auto-News Core)
+
+Backend handles:
+
+* RSS feeds
+* Reddit scraping
+* YouTube transcript + summary
+* Article extraction
+
+App displays unified feed
+
+---
+
+### 4. Weekly Intelligence Report (🔥 VIRAL)
+
+* AI generates:
+
+  * “Your Week in Knowledge”
+  * Top trends
+  * What you learned
+
+---
+
+### 5. Knowledge Graph (Advanced)
+
+* Visual map of:
+
+  * Topics you follow
+  * Connections between ideas
+
+---
+
+### 6. AI Action Engine
+
+Auto convert content into:
+
+* Tasks
+* Ideas
+* Notes
+
+Example:
+“Startup idea from article” → saved to ideas list
+
+---
+
+### 7. Voice Mode (🔥 UNIQUE)
+
+User asks:
+
+* “What happened in AI this week?”
+
+App responds with:
+
+* Voice summary + cards
+
+---
+
+### 8. Personalization Engine
+
+* Learns:
+
+  * Interests
+  * Reading behavior
+  * Time spent
+
+Filters 80% noise automatically
+
+---
+
+## 🧭 Navigation
+
+Bottom Tabs:
+
+* Feed
+* Explore
+* AI Chat
+* Reports
+* Profile
+
+---
+
+## 🎨 UI/UX
+
+* Dark modern UI
+* Card-based layout
+* Smooth gestures (swipe-based)
+* Micro animations
+* Minimal text, high clarity
+
+---
+
+## ⚙️ Backend APIs
+
+GET /feed
+POST /feedback
+GET /summary/{id}
+POST /chat
+GET /weekly-report
+
+---
+
+## 🔐 Performance & Optimization
+
+* Cache summaries
+* Lazy load content
+* Background sync feeds
+* Offline reading support
+
+---
+
+## 🚀 Advanced Features
+
+* Creator mode (publish your own feed)
+* Social sharing (AI cards)
+* Gamification:
+
+  * “Knowledge streak”
+  * XP system
+
+---
+
+## 📦 Deliverables
+
+* Fully functional mobile app
+* Backend integration with Auto-News
+* Clean UI
+* Scalable architecture
+
+---
+
+## 💡 Goal
+
+This should feel like:
+
+👉 “If ChatGPT + TikTok + Feedly had a baby”
+
+NOT a boring RSS reader
+
+But a **highly addictive AI-powered knowledge app**

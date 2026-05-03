@@ -1,0 +1,26 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "6LV0onkiY9h2jwrudny0_"
+uri = "file://artifacts/neurofeed/assets/images/icon.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "JZEa9a7JgLNgyRUwCgkQQ"
+uri = "file://artifacts/neurofeed/assets/images/splash.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "2x05_9S75T91-eHuDlmUw"
+uri = "file://artifacts/neurofeed/assets/images/placeholder_ai.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "0sQub38Oairl7KQ7oHWgh"
+uri = "file://artifacts/neurofeed/assets/images/placeholder_business.png"
+type = "image"
+title = "generated_image"
